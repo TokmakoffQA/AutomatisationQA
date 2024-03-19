@@ -1,0 +1,39 @@
+.poem {
+    padding: 3%;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    font-size: large;
+    font-family: "Pacifico", cursive;
+    margin-bottom: -20px;
+}
+
+h2 {
+    text-decoration: underline;
+    font-weight: 800;
+    text-shadow: 1px 1px 5px rgb(68, 65, 65);
+    ;
+}
+
+h3 {
+    color: brown;
+    font-size: large;
+    text-align: center;
+}
+
+.abz1 {
+    text-indent: 12%;
+}
+
+.abz2 {
+    text-indent: 40%;
+}
+
+.abz3 {
+    text-indent: 50%;
+}

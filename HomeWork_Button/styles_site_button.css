@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.conteiner {
+    width: 800px;
+    margin: 0 auto;
+}
+
+main {
+    position: relative;
+    padding: 10px;
+    background-color: rgb(128, 168, 154);
+
+}
+
+.upbtn {
+    font-size: large;
+    position: sticky;
+    height: 50px;
+    border-radius: 15px;
+    width: 50px;
+    left: 95%;
+    bottom: 5px;
+    background-color: aqua;
+}

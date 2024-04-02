@@ -1,0 +1,48 @@
+body{margin: 0;}
+
+.conteiner{
+    width: 800px;
+    margin: 0 auto;
+}
+
+header{
+    background-image: url(https://www.funnyart.club/uploads/posts/2022-01/thumbs/1641557893_28-www-funnyart-club-p-tekhnicheskie-foni-30.jpg);
+ color: white;
+ padding: 5px;
+ text-align: center;
+}
+aside{
+    position: sticky;
+    font-weight: 600;
+    top: 0px;
+    background-color: rgb(252 167 74);
+    float: left;
+width:200px ;
+text-align: left;
+padding: 5px;
+}
+
+main{
+background-color: rgb(128, 128, 200);
+color: white;
+    margin-left: 150px;
+border-left: 5px solid rgb(28 89 131);
+padding: 10px;
+backdrop-filter: blur(10px); 
+-webkit-backdrop-filter: blur(10px); 
+}
+
+footer{
+    color:white;
+    background-color: rgb(28 89 131);
+}
+.upbtn{
+    font-size: large;
+    position: sticky;
+    height: 50px;
+    border-radius: 15px;
+    width: 65px;
+    left: 95%;
+    bottom: 5px;
+    background-color: rgb(252 167 74);
+}

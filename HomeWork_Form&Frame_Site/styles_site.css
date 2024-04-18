@@ -1,0 +1,87 @@
+
+body { background-color: rgb(252 167 74);
+    margin: 0;
+}
+.header {
+    background-image: url(https://www.funnyart.club/uploads/posts/2022-01/thumbs/1641557893_28-www-funnyart-club-p-tekhnicheskie-foni-30.jpg);
+ color: white;
+ padding: 5px;
+ text-align: center;
+}
+
+.aside {
+    background-color: rgb(252 167 74);
+    float: left;
+    width: 15%;
+    padding: 5px;
+    margin: 10px;
+    position: sticky;
+
+}
+.aside_right {
+
+    float: right;
+    width: 15%;
+    padding: 5px;
+    margin: 10px;
+    position: sticky;
+}
+.content {
+    margin: 0 20% 0 20%;
+    background-color:rgb(152 121 240);
+    padding: 3px; 
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    color:white;
+    background-color: rgb(28 89 131);
+    padding: 5px;
+}
+.upbtn{
+    font-size: large;
+    position: sticky;
+    height: 50px;
+    border-radius: 15px;
+    width: 65px;
+    left: 95%;
+    bottom: 5px;
+    background-color: rgb(252 167 74);
+}
+h2 {
+    text-align: center;
+}
+caption{
+    font-weight: 1000;
+    font-size: large;
+    padding: 10px;
+}
+table{
+  
+    text-align: center;
+border-collapse: collapse;
+}
+td{
+    font-size: large;
+    color: rgb(10, 9, 9);
+    background-color:rgb(252 167 74);
+    border: 5px solid rgb(28 89 131);
+padding: 10px 20px;
+
+}
+
+tr :hover{
+    color: white;
+    background-color:rgb(37 107 155);
+}
+
+input[type=text]{
+    background-color: rgb(83, 174, 143);
+    color: white
+}
+input{
+    margin: 5px;
+}
+
+
+

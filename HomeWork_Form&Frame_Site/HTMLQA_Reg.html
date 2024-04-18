@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_Site_Tokmakov</title>
+    <link href="styles_site.css" rel="stylesheet">
+    <style>
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Будни QA Engineer</h1>
+    </div>
+    <div class="aside">
+        <p><a href="HTMLQA_Site.html">ДОМОЙ</a></p>
+        <p><a href="https://en.wikipedia.org/wiki/Quality_assurance">WIKI</a>
+        </p>
+        <p><a href="HTMLQA_Site_Where.html">КАК НАС НАЙТИ</a></p>
+        <p><a href="HTMLQA_Report.html">QA ОТЧЕТЫ</a></p>
+        <p><a href="HTMLQA_Table.html">ТАБЛИЦА</a></p>
+        <p><a href="HTMLQA_Content.html">КОНТЕНТ</a></p>
+    </div>
+    <div class="aside_right">
+        <h3>Статистика:</h3>
+        <p>Посетителей сегодня:<br>223</p>
+        <p>Посетителей всего:<br>12345</p>
+    </div>
+    <div class="content">
+        <input type="image" src="https://crkdiscgolf.com/spaindiscgolfopen2023/wp-content/uploads/2018/10/registration.jpg" alt="Submit" style="float:left" width="150 px" height="100 px"><br>
+        <form method="post" enctype="application/x-www-form-urlencoded">
+            <fieldset>
+          <legend>Registration</legend>
+            <label for="name">Name</label>
+            <input type="text" name="first-name" placeholder="input you name" value="kirill"><br>
+            <!-- disbled / readonly -->
+            <label for="Password">Password</label>
+            <input autofocus required id="password" name="password" placeholder="create you password"><br>
+            <label for="datetime-local">You date of birth</label>
+            <input type="datetime-local" name="#8b00ff"><br>
+            <label for="Email">Email</label>
+            <input type="email" name="email" placeholder="email"><br>
+            <input list="city" name="city">
+            <label for="city">Select you city</label><br>
+            <datalist id="city"><br>
+             <option value="Moscow"></option>
+             <option value="London"></option>
+             <option value="Paris"></option>
+            </datalist><br>
+            <label for="Gender">Gender</label><br>
+                <input type="radio" name="Gender" value="male">Male<br>
+            </label>
+            <label>
+            <input type="radio" name="Gender" value="female">Female<br>
+        </label>
+        <label for="Skill">Skill</label><br>
+          <input type="checkbox" name="QA skill" value="true">QA skill
+            <input type="checkbox" name="Dev skill" value="true">Developper skill <br>
+            <input type="hidden" name="secret" value="123"> <br>
+            <label for="resume">Klick to download you resume or CV</label><br>
+            <input type="file" name="resume"><br>
+            <select name="animal-2">
+                <optgroup label="Fluffy">
+                    <option value="cat">Cat</option>
+                    <option value="dog">Dog</option>
+                </optgroup>
+                <option value="fish">Fish</option>
+            </select><br>
+            <textarea name="big-text" id="" cols="30" rows="10">About you....</textarea><br>
+            <label for="color">You favorite color</label><br>
+           <input type="color" name="color" value= "rgb(252 167 74)"><br>
+           <label for="color">You favorite number</label><br>
+           <input type="number" name="number" step="1"><br>
+           <input type="range" name="range"><br>
+            <input type="submit" value="Registration">
+            <input type="reset" value="Clear">
+        </fieldset>
+        </form>
+        <button class="upbtn">Вверх</button>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 &#124 Копирайт и все такое</p>
+    </div>
+</body>
+
+</html>

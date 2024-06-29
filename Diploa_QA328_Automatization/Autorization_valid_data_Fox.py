@@ -8,7 +8,7 @@ import pytest
 
 @pytest.fixture()
 def driver():
-    driver = webdriver.Chrome()
+    driver = webdriver.Firefox()
     driver.maximize_window()
     url = "https://tramontana.ru/"
     driver.get(url)
